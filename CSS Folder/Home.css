@@ -32,3 +32,14 @@
 .navbar>ul>li>a.active{
     color: rgb(13, 93, 232);
 }
+/* Styling the contatnt of the page (cards) */
+.row{
+    grid-gap:10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.card-body{
+   background-color: darkslategray;
+   color: #ffffff;
+
+}
