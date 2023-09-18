@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="../CSS Folder/Welcome.css">
     <!-- CSS Home Link -->
     <link rel="stylesheet" href="../CSS Folder/Home.css">
+    <!-- CSS ContactUs Link -->
+    <link rel="stylesheet" href="../CSS Folder/ContactUs.css">
 </head>
 <body>
     <!-- Header -->
@@ -21,12 +23,31 @@
             <li><a href="Welcome.Html" >LogOut</a></li>
         </ul>
     </div>
+    <!-- Contact Form -->
+    <div class="contactform">
+        <h2>Contact Us</h2>
+        <form>
+           <label for="name">Name</label>
+           <input type="text" id="name">
+           <label for="email">Email</label>
+           <input type="text" id="email">
+           <label for="message">Message</label>
+           <textarea id="message"></textarea>
+           <input type="submit" value="Submit"  onclick="Alert()">
+           <input type="reset" value="Reset">
+        </form>
+   </div>
     
     <!-- Creat A Footer -->
 <footer class="f">
     <p>Copy Right &copy; 2023</p>
     <p>Disigned by <a href="">Zaina Hammouri</a></p>
 </footer>
+
+<!-- Sweet Alert link  -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<!-- ContactUs JS Link -->
+    <script src="../JS Folder/ContactUs.js"></script>
     
 </body>
 </html>

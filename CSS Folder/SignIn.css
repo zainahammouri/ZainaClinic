@@ -38,5 +38,6 @@ a>button{
     background-color: white;
     box-shadow: 10px 10px 10px black;
     cursor: pointer;
+    margin-left: 250px;
 
 }
