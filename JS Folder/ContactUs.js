@@ -8,4 +8,5 @@ function Alert(){
         timer: 3000
       })
 }
-Alert();
+const s=document.querySelector('#sb');
+s.addEventListener("submit",Alert());
